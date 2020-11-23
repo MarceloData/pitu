@@ -1,2 +1,2 @@
 # pitu
-A simple micro-SassS for URL shortening
+A simple micro-SasS for URL shortening
