@@ -9,6 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { StatsContainer, StatsRow, StatsBox, StatsBoxTitle } from "./styles";
 
+import vars from "../../configs/vars";
+
 class StatsPage extends React.Component {
     constructor(props) {
         super(props);
@@ -64,7 +66,7 @@ class StatsPage extends React.Component {
                 ) : (
                     <StatsContainer className="text-center">
                         <p>
-                            <b>https://pitu.tk/{shortenedURL.code}</b>
+                            <b>{vars.HOST_APP + shortenedURL.code}</b>
                         </p>
                         <p>
                             Redireciona para: <br /> {shortenedURL.url}
