@@ -12,4 +12,4 @@ O projeto utiliza nodejs e typescript no backend, e ReactJs no frontend.
 
 ## Publicação
 
-O projeto se encontra publicado na AWS no endereço: [www.pitumarcelo.tk](www.pitumarcelo.tk).
+O projeto se encontra publicado na AWS no endereço: [www.pitumarcelo.tk](www.pitumarcelo.tk)
