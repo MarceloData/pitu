@@ -106,7 +106,7 @@ class HomePage extends React.Component {
 
                                     <p>
                                         Para acompanhar as estatísticas, acesse
-                                        {vars.HOST_APP + code}
+                                        {vars.HOST_APP + code}/stats
                                     </p>
                                 </>
                             )

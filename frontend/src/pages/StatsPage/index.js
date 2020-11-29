@@ -73,6 +73,10 @@ class StatsPage extends React.Component {
                         </p>
                         <StatsRow>
                             <StatsBox>
+                                <b>{shortenedURL.hits}</b>
+                                <StatsBoxTitle>Visitas</StatsBoxTitle>
+                            </StatsBox>
+                            <StatsBox>
                                 <b>{shortenedURL.relativeDate}</b>
                                 <StatsBoxTitle>Última visita</StatsBoxTitle>
                             </StatsBox>
